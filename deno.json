@@ -1,0 +1,6 @@
+{
+  "name": "groq-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server for Groq API",
+  "main": "proxy.ts"
+}
