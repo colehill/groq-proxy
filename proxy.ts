@@ -11,7 +11,7 @@ async function handleRequest(request: Request): Promise<Response> {
   }
 
   // 将请求转发到 Groq API
-  const targetUrl = `https://api.groq.com${pathname}`;
+  const targetUrl = `https://${pathname}`;
   
   try {
     // 处理请求头
